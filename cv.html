@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cv</title>
+  <link rel="stylesheet" href="cvstyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="cv-container">
+    <img src="avatar.png" alt="profil sekli" class="profile-pic">
+  </div>
+
+  <div class="name">
+    <h1 id="cv-name">NURAY BEYDULLAYEVA</h1>
+    <h2 id="cv-position">STUDENT</h2>
+  </div>
+
+  <div class="cvbody">
+    <div class="right">
+      <h1>PROFILE</h1>
+      <hr>
+      <p id="profile-description">
+        SKSFRC NJF NBUIFREDQ CJDSDIEWNGVJNSL, SSMJROGVNSHJDR DJFNREJ3QWB DUOWCF EWBNREUFGNFDCB HDSBF HJDFHI4UEWDXN SDJTFRE UDHFNIU3RWFNCSJDNCF EKWJNFHDIUHNCJSR ERUDSFJOEWIJSNX CSDGI3U4WEJDS JHFRTR43UEWJSAKHFUITE5R EIDFJ8REWFNDWIUEH BIUREWJSDFND.
+      </p>
+
+      <details open>
+        <summary><h1>WORK EXPERIENCE <button onclick="addExperience()">Add</button></h1></summary>
+        <hr>
+        <div id="work-experience"></div>
+      </details>
+
+      <h2>REFERENCE</h2>
+      <hr>
+      <b>Estelle Darcy</b><br>
+      jmwdcijmgerwkdaosmvgtngrjfoiwas vkerfmdlaks fjesdnxdkimjgfies jsnfisajn cjfdrnf<br>
+      <b>Harper Richard</b><br>
+      snxusjqksijfe sdjnsaijmsooefjfd kjndiasvnjds dsjncsdjk dsnzjndsc djnsjndsd
+    </div>
+
+    <div class="left">
+      <h2>CONTACT</h2>
+      <hr>
+      <i class="fa fa-phone" id="phone"> +123-456-7890</i><br>
+      <i class="fa fa-envelope" id="email"> nuray070722@gmail.com</i>
+
+      <details open>
+        <summary><h2>EDUCATION <button onclick="addEducation()">Add</button></h2></summary>
+        <hr>
+        <div id="education"></div>
+      </details>
+
+      <details open>
+        <summary><h2>SKILLS <button onclick="addSkill()">Add</button></h2></summary>
+        <hr>
+        <ul id="skills"></ul>
+      </details>
+
+      <h2>LANGUAGES</h2>
+      <hr>
+      <ul>
+        <li>English(Fluent)</li>
+        <li>French(Fluent)</li>
+        <li>German(Basics)</li>
+        <li>Spanish(Intermediate)</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="cv.js"></script>
+
+
+  
+
+</body>
+</html>

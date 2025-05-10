@@ -1,0 +1,81 @@
+
+.cv-container {
+  width: 80%; 
+  max-width: 1000px; 
+  margin: 50px auto; 
+  padding: 20px;
+  background-color: #fff; 
+  
+ 
+}
+
+
+.profile-pic{
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  width: 350px;
+  height: auto;
+  border-radius: 200px;
+}
+.name{
+
+ margin-right: 10px;
+ margin-left: 700px;
+ margin-top: 50px;
+ font-size: larger;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:rgb(4, 4, 71)
+}
+
+.cvbody {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+
+.left {
+  background-color: #2a5d84; 
+  color: white;
+  padding: 20px;
+  width: 45%;
+  box-sizing: border-box;
+  margin-top: 120px;
+  margin-right: 5%;
+}
+
+
+.right {
+  background-color: #f0f0f0; 
+  padding: 20px;
+  width: 45%;
+  box-sizing: border-box;
+  margin-top: 120px;
+  margin-left: 5%;
+}
+
+
+button {
+  margin-left: 10px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+summary {
+  cursor: pointer;
+}
+
+
+
+
+hr{
+  width: 40%;
+  margin:0;
+}
